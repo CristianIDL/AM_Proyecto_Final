@@ -1,0 +1,508 @@
+Q-TABLE PARA MAPA 0
+================================================================================
+Total de estados: 535
+Acciones: 0=Norte, 1=Sur, 2=Este, 3=Oeste
+
+TOP 100 ESTADOS MÁS VALIOSOS:
+--------------------------------------------------------------------------------
+
+Estado #1:
+  Descripción: (True, (0, 3, 0, 0), (8, 16), 0, 0)
+  Q-Valores: N=179.00, S=179.00, E=200.00, O=160.10
+  Mejor acción: Este
+
+Estado #2:
+  Descripción: (True, (0, 3, 0, 0), (7, 16), 0, 0)
+  Q-Valores: N=179.00, S=179.00, E=200.00, O=160.10
+  Mejor acción: Este
+
+Estado #3:
+  Descripción: (True, (0, 3, 0, 0), (9, 16), 0, 0)
+  Q-Valores: N=178.98, S=178.99, E=200.00, O=159.98
+  Mejor acción: Este
+
+Estado #4:
+  Descripción: (True, (0, 3, 0, 0), (5, 16), 0, 0)
+  Q-Valores: N=178.96, S=178.99, E=200.00, O=159.98
+  Mejor acción: Este
+
+Estado #5:
+  Descripción: (True, (0, 3, 0, 0), (6, 16), 0, 0)
+  Q-Valores: N=179.00, S=179.00, E=200.00, O=160.10
+  Mejor acción: Este
+
+Estado #6:
+  Descripción: (True, (0, 3, 0, 0), (10, 16), 0, 0)
+  Q-Valores: N=173.95, S=173.18, E=200.00, O=158.02
+  Mejor acción: Este
+
+Estado #7:
+  Descripción: (True, (0, 3, 0, 0), (4, 16), 0, 0)
+  Q-Valores: N=176.44, S=176.72, E=200.00, O=158.84
+  Mejor acción: Este
+
+Estado #8:
+  Descripción: (True, (0, 3, 0, 0), (3, 16), 0, 0)
+  Q-Valores: N=169.92, S=169.02, E=200.00, O=134.64
+  Mejor acción: Este
+
+Estado #9:
+  Descripción: (True, (0, 3, 0, 0), (11, 16), 0, 0)
+  Q-Valores: N=145.75, S=146.48, E=199.97, O=134.83
+  Mejor acción: Este
+
+Estado #10:
+  Descripción: (True, (0, 3, 0, 4), (2, 16), 0, 0)
+  Q-Valores: N=-141.70, S=159.75, E=199.83, O=125.59
+  Mejor acción: Este
+
+Estado #11:
+  Descripción: (True, (0, 3, 0, 0), (12, 16), 0, 0)
+  Q-Valores: N=127.23, S=91.98, E=194.99, O=81.32
+  Mejor acción: Este
+
+Estado #12:
+  Descripción: (True, (0, 3, 0, 1), (1, 16), 0, 0)
+  Q-Valores: N=52.41, S=69.35, E=180.30, O=20.64
+  Mejor acción: Este
+
+Estado #13:
+  Descripción: (True, (0, 0, 0, 0), (7, 15), 0, 0)
+  Q-Valores: N=160.10, S=160.08, E=179.00, O=143.09
+  Mejor acción: Este
+
+Estado #14:
+  Descripción: (True, (0, 0, 0, 0), (8, 15), 0, 0)
+  Q-Valores: N=160.10, S=160.10, E=179.00, O=143.09
+  Mejor acción: Este
+
+Estado #15:
+  Descripción: (True, (0, 0, 0, 0), (9, 15), 0, 0)
+  Q-Valores: N=160.06, S=160.07, E=179.00, O=143.07
+  Mejor acción: Este
+
+Estado #16:
+  Descripción: (True, (0, 0, 0, 0), (5, 15), 0, 0)
+  Q-Valores: N=160.09, S=160.10, E=179.00, O=143.08
+  Mejor acción: Este
+
+Estado #17:
+  Descripción: (True, (0, 0, 0, 0), (6, 15), 0, 0)
+  Q-Valores: N=160.10, S=160.10, E=179.00, O=143.09
+  Mejor acción: Este
+
+Estado #18:
+  Descripción: (True, (0, 0, 0, 0), (4, 15), 0, 0)
+  Q-Valores: N=157.79, S=159.90, E=179.00, O=142.24
+  Mejor acción: Este
+
+Estado #19:
+  Descripción: (True, (0, 0, 0, 0), (10, 15), 0, 0)
+  Q-Valores: N=155.97, S=154.87, E=179.00, O=136.93
+  Mejor acción: Este
+
+Estado #20:
+  Descripción: (True, (0, 0, 0, 0), (3, 15), 0, 0)
+  Q-Valores: N=152.80, S=149.14, E=178.93, O=127.50
+  Mejor acción: Este
+
+Estado #21:
+  Descripción: (True, (0, 0, 0, 0), (11, 15), 0, 0)
+  Q-Valores: N=132.34, S=105.71, E=178.75, O=119.83
+  Mejor acción: Este
+
+Estado #22:
+  Descripción: (True, (0, 0, 0, 0), (2, 15), 0, 0)
+  Q-Valores: N=98.41, S=140.60, E=178.36, O=107.04
+  Mejor acción: Este
+
+Estado #23:
+  Descripción: (True, (0, 3, 0, 0), (13, 16), 0, 0)
+  Q-Valores: N=81.11, S=71.78, E=169.98, O=27.58
+  Mejor acción: Este
+
+Estado #24:
+  Descripción: (True, (0, 0, 0, 0), (12, 15), 0, 0)
+  Q-Valores: N=108.37, S=60.50, E=160.36, O=52.98
+  Mejor acción: Este
+
+Estado #25:
+  Descripción: (True, (0, 0, 0, 0), (8, 14), 0, 0)
+  Q-Valores: N=143.09, S=143.09, E=160.10, O=127.78
+  Mejor acción: Este
+
+Estado #26:
+  Descripción: (True, (0, 0, 0, 0), (7, 14), 0, 0)
+  Q-Valores: N=143.09, S=143.06, E=160.10, O=127.78
+  Mejor acción: Este
+
+Estado #27:
+  Descripción: (True, (0, 0, 0, 0), (6, 14), 0, 0)
+  Q-Valores: N=143.09, S=143.09, E=160.10, O=127.78
+  Mejor acción: Este
+
+Estado #28:
+  Descripción: (True, (0, 0, 0, 0), (5, 14), 0, 0)
+  Q-Valores: N=143.08, S=143.09, E=160.10, O=127.77
+  Mejor acción: Este
+
+Estado #29:
+  Descripción: (True, (0, 0, 0, 0), (9, 14), 0, 0)
+  Q-Valores: N=143.04, S=143.07, E=160.10, O=127.75
+  Mejor acción: Este
+
+Estado #30:
+  Descripción: (True, (0, 0, 0, 0), (4, 14), 0, 0)
+  Q-Valores: N=140.18, S=142.11, E=160.10, O=126.53
+  Mejor acción: Este
+
+Estado #31:
+  Descripción: (True, (0, 0, 0, 0), (10, 14), 0, 0)
+  Q-Valores: N=135.96, S=133.20, E=160.10, O=116.81
+  Mejor acción: Este
+
+Estado #32:
+  Descripción: (True, (0, 0, 0, 0), (3, 14), 0, 0)
+  Q-Valores: N=119.78, S=129.14, E=159.67, O=108.41
+  Mejor acción: Este
+
+Estado #33:
+  Descripción: (True, (0, 0, 0, 0), (11, 14), 0, 0)
+  Q-Valores: N=112.63, S=67.89, E=158.74, O=87.94
+  Mejor acción: Este
+
+Estado #34:
+  Descripción: (True, (0, 0, 0, 0), (2, 14), 0, 0)
+  Q-Valores: N=68.83, S=100.96, E=157.81, O=96.65
+  Mejor acción: Este
+
+Estado #35:
+  Descripción: (True, (0, 3, 0, 0), (14, 16), 0, 0)
+  Q-Valores: N=72.39, S=57.36, E=149.16, O=11.25
+  Mejor acción: Este
+
+Estado #36:
+  Descripción: (True, (0, 3, 0, 0), (15, 16), 0, 0)
+  Q-Valores: N=46.94, S=55.02, E=143.51, O=13.32
+  Mejor acción: Este
+
+Estado #37:
+  Descripción: (True, (0, 0, 0, 0), (5, 13), 0, 0)
+  Q-Valores: N=127.77, S=127.78, E=143.09, O=114.00
+  Mejor acción: Este
+
+Estado #38:
+  Descripción: (True, (0, 0, 0, 0), (9, 13), 0, 0)
+  Q-Valores: N=127.71, S=127.67, E=143.09, O=113.98
+  Mejor acción: Este
+
+Estado #39:
+  Descripción: (True, (0, 0, 0, 0), (8, 13), 0, 0)
+  Q-Valores: N=127.78, S=127.78, E=143.09, O=114.00
+  Mejor acción: Este
+
+Estado #40:
+  Descripción: (True, (0, 0, 0, 0), (6, 13), 0, 0)
+  Q-Valores: N=127.78, S=127.78, E=143.09, O=114.00
+  Mejor acción: Este
+
+Estado #41:
+  Descripción: (True, (0, 0, 0, 0), (7, 13), 0, 0)
+  Q-Valores: N=127.78, S=127.37, E=143.09, O=114.00
+  Mejor acción: Este
+
+Estado #42:
+  Descripción: (True, (0, 0, 0, 0), (4, 13), 0, 0)
+  Q-Valores: N=115.36, S=125.66, E=143.09, O=112.48
+  Mejor acción: Este
+
+Estado #43:
+  Descripción: (True, (1, 0, 0, 0), (10, 13), 0, 0)
+  Q-Valores: N=116.86, S=93.91, E=143.07, O=91.01
+  Mejor acción: Este
+
+Estado #44:
+  Descripción: (True, (0, 0, 0, 0), (3, 13), 0, 0)
+  Q-Valores: N=98.84, S=115.63, E=140.44, O=82.59
+  Mejor acción: Este
+
+Estado #45:
+  Descripción: (True, (0, 4, 0, 1), (1, 15), 0, 0)
+  Q-Valores: N=44.10, S=140.40, E=-176.06, O=45.89
+  Mejor acción: Sur
+
+Estado #46:
+  Descripción: (True, (0, 0, 0, 0), (2, 13), 0, 0)
+  Q-Valores: N=64.06, S=91.40, E=138.00, O=70.43
+  Mejor acción: Este
+
+Estado #47:
+  Descripción: (True, (0, 3, 1, 0), (16, 16), 0, 0)
+  Q-Valores: N=66.00, S=42.09, E=137.24, O=10.05
+  Mejor acción: Este
+
+Estado #48:
+  Descripción: (True, (0, 0, 0, 0), (11, 13), 0, 0)
+  Q-Valores: N=91.01, S=33.19, E=136.02, O=68.41
+  Mejor acción: Este
+
+Estado #49:
+  Descripción: (True, (0, 0, 0, 0), (5, 12), 0, 0)
+  Q-Valores: N=113.93, S=114.00, E=127.78, O=101.58
+  Mejor acción: Este
+
+Estado #50:
+  Descripción: (True, (0, 0, 1, 0), (9, 12), 0, 0)
+  Q-Valores: N=113.98, S=109.99, E=127.78, O=101.58
+  Mejor acción: Este
+
+Estado #51:
+  Descripción: (True, (0, 0, 0, 0), (6, 12), 0, 0)
+  Q-Valores: N=114.00, S=114.00, E=127.78, O=101.60
+  Mejor acción: Este
+
+Estado #52:
+  Descripción: (True, (0, 0, 0, 0), (7, 12), 0, 0)
+  Q-Valores: N=114.00, S=113.60, E=127.78, O=101.60
+  Mejor acción: Este
+
+Estado #53:
+  Descripción: (True, (0, 0, 0, 0), (8, 12), 0, 0)
+  Q-Valores: N=114.00, S=114.00, E=127.78, O=101.60
+  Mejor acción: Este
+
+Estado #54:
+  Descripción: (True, (0, 0, 0, 0), (4, 12), 0, 0)
+  Q-Valores: N=79.09, S=103.94, E=127.77, O=70.11
+  Mejor acción: Este
+
+Estado #55:
+  Descripción: (True, (0, 0, 0, 0), (3, 12), 0, 0)
+  Q-Valores: N=74.46, S=88.19, E=119.39, O=46.22
+  Mejor acción: Este
+
+Estado #56:
+  Descripción: (True, (0, 0, 0, 0), (12, 14), 0, 0)
+  Q-Valores: N=64.96, S=9.47, E=117.78, O=10.26
+  Mejor acción: Este
+
+Estado #57:
+  Descripción: (True, (0, 0, 0, 0), (2, 12), 0, 0)
+  Q-Valores: N=27.40, S=57.32, E=117.27, O=30.56
+  Mejor acción: Este
+
+Estado #58:
+  Descripción: (True, (0, 0, 0, 1), (1, 14), 0, 0)
+  Q-Valores: N=41.48, S=115.95, E=50.93, O=39.40
+  Mejor acción: Sur
+
+Estado #59:
+  Descripción: (True, (0, 0, 0, 0), (6, 11), 0, 0)
+  Q-Valores: N=101.60, S=101.60, E=114.00, O=90.44
+  Mejor acción: Este
+
+Estado #60:
+  Descripción: (True, (0, 0, 0, 0), (5, 11), 0, 0)
+  Q-Valores: N=89.95, S=101.60, E=114.00, O=90.29
+  Mejor acción: Este
+
+Estado #61:
+  Descripción: (True, (4, 0, 0, 0), (7, 11), 0, 0)
+  Q-Valores: N=101.60, S=100.90, E=114.00, O=-410.81
+  Mejor acción: Este
+
+Estado #62:
+  Descripción: (True, (0, 0, 0, 0), (8, 11), 0, 0)
+  Q-Valores: N=101.60, S=101.60, E=114.00, O=90.44
+  Mejor acción: Este
+
+Estado #63:
+  Descripción: (True, (0, 0, 0, 0), (9, 11), 0, 0)
+  Q-Valores: N=101.55, S=90.39, E=114.00, O=90.35
+  Mejor acción: Este
+
+Estado #64:
+  Descripción: (True, (0, 0, 0, 0), (13, 15), 0, 0)
+  Q-Valores: N=61.52, S=34.75, E=113.57, O=9.51
+  Mejor acción: Este
+
+Estado #65:
+  Descripción: (True, (0, 0, 0, 1), (11, 12), 0, 0)
+  Q-Valores: N=55.00, S=34.43, E=105.52, O=48.15
+  Mejor acción: Este
+
+Estado #66:
+  Descripción: (True, (0, 0, 4, 0), (6, 10), 0, 0)
+  Q-Valores: N=90.44, S=-408.56, E=101.60, O=80.40
+  Mejor acción: Este
+
+Estado #67:
+  Descripción: (True, (4, 0, 0, 0), (5, 10), 0, 0)
+  Q-Valores: N=79.03, S=90.44, E=101.60, O=-418.67
+  Mejor acción: Este
+
+Estado #68:
+  Descripción: (True, (0, 0, 0, 0), (7, 10), 0, 0)
+  Q-Valores: N=90.44, S=87.60, E=101.60, O=71.36
+  Mejor acción: Este
+
+Estado #69:
+  Descripción: (True, (0, 0, 0, 4), (8, 10), 0, 0)
+  Q-Valores: N=-420.22, S=90.44, E=101.60, O=80.40
+  Mejor acción: Este
+
+Estado #70:
+  Descripción: (True, (0, 0, 0, 0), (9, 10), 0, 0)
+  Q-Valores: N=90.11, S=80.34, E=101.60, O=79.83
+  Mejor acción: Este
+
+Estado #71:
+  Descripción: (True, (0, 1, 0, 0), (10, 11), 0, 0)
+  Q-Valores: N=101.60, S=61.27, E=60.71, O=61.29
+  Mejor acción: Norte
+
+Estado #72:
+  Descripción: (True, (0, 0, 0, 0), (4, 11), 0, 0)
+  Q-Valores: N=52.08, S=101.50, E=88.36, O=59.12
+  Mejor acción: Sur
+
+Estado #73:
+  Descripción: (True, (0, 0, 0, 1), (1, 13), 0, 0)
+  Q-Valores: N=17.96, S=100.31, E=58.82, O=18.03
+  Mejor acción: Sur
+
+Estado #74:
+  Descripción: (True, (0, 0, 0, 2), (8, 9), 0, 0)
+  Q-Valores: N=87.36, S=80.40, E=90.44, O=71.36
+  Mejor acción: Este
+
+Estado #75:
+  Descripción: (True, (1, 0, 0, 4), (6, 9), 0, 0)
+  Q-Valores: N=-418.60, S=71.36, E=90.44, O=76.40
+  Mejor acción: Este
+
+Estado #76:
+  Descripción: (True, (4, 0, 0, 0), (9, 9), 0, 0)
+  Q-Valores: N=79.58, S=70.55, E=90.44, O=-228.56
+  Mejor acción: Este
+
+Estado #77:
+  Descripción: (True, (0, 0, 0, 1), (5, 9), 0, 0)
+  Q-Valores: N=75.93, S=80.39, E=90.44, O=46.10
+  Mejor acción: Este
+
+Estado #78:
+  Descripción: (True, (0, 0, 0, 0), (8, 9), 0, 0)
+  Q-Valores: N=71.36, S=79.00, E=90.44, O=69.41
+  Mejor acción: Este
+
+Estado #79:
+  Descripción: (True, (0, 0, 1, 0), (10, 10), 0, 0)
+  Q-Valores: N=90.44, S=67.34, E=84.41, O=65.28
+  Mejor acción: Norte
+
+Estado #80:
+  Descripción: (True, (1, 0, 0, 0), (4, 10), 0, 0)
+  Q-Valores: N=37.87, S=90.09, E=71.18, O=63.25
+  Mejor acción: Sur
+
+Estado #81:
+  Descripción: (True, (0, 0, 0, 0), (3, 11), 0, 0)
+  Q-Valores: N=28.60, S=47.38, E=88.13, O=27.37
+  Mejor acción: Este
+
+Estado #82:
+  Descripción: (True, (0, 2, 0, 1), (7, 8), 0, 0)
+  Q-Valores: N=73.62, S=71.36, E=87.36, O=68.86
+  Mejor acción: Este
+
+Estado #83:
+  Descripción: (True, (2, 0, 0, 0), (7, 10), 0, 0)
+  Q-Valores: N=73.50, S=52.88, E=44.36, O=87.36
+  Mejor acción: Oeste
+
+Estado #84:
+  Descripción: (True, (0, 0, 0, 0), (2, 11), 0, 0)
+  Q-Valores: N=7.10, S=23.37, E=86.48, O=3.18
+  Mejor acción: Este
+
+Estado #85:
+  Descripción: (True, (0, 2, 0, 0), (7, 6), 0, 0)
+  Q-Valores: N=6.62, S=7.12, E=84.86, O=5.84
+  Mejor acción: Este
+
+Estado #86:
+  Descripción: (True, (0, 0, 0, 2), (8, 7), 0, 0)
+  Q-Valores: N=84.86, S=4.39, E=22.12, O=10.37
+  Mejor acción: Norte
+
+Estado #87:
+  Descripción: (True, (0, 1, 2, 0), (6, 7), 0, 0)
+  Q-Valores: N=1.01, S=83.65, E=9.29, O=1.09
+  Mejor acción: Sur
+
+Estado #88:
+  Descripción: (True, (1, 0, 4, 0), (11, 11), 0, 0)
+  Q-Valores: N=28.26, S=-484.65, E=81.69, O=32.13
+  Mejor acción: Este
+
+Estado #89:
+  Descripción: (True, (0, 4, 0, 0), (7, 9), 0, 0)
+  Q-Valores: N=80.40, S=80.40, E=-408.56, O=63.22
+  Mejor acción: Norte
+
+Estado #90:
+  Descripción: (True, (0, 0, 0, 0), (9, 8), 0, 0)
+  Q-Valores: N=70.66, S=59.84, E=80.40, O=55.68
+  Mejor acción: Este
+
+Estado #91:
+  Descripción: (True, (0, 0, 4, 0), (8, 8), 0, 0)
+  Q-Valores: N=77.00, S=-227.64, E=80.40, O=63.22
+  Mejor acción: Este
+
+Estado #92:
+  Descripción: (True, (0, 0, 0, 0), (10, 9), 0, 0)
+  Q-Valores: N=68.42, S=49.65, E=80.39, O=47.13
+  Mejor acción: Este
+
+Estado #93:
+  Descripción: (True, (0, 0, 0, 0), (7, 7), 0, 0)
+  Q-Valores: N=60.96, S=63.22, E=77.62, O=60.97
+  Mejor acción: Este
+
+Estado #94:
+  Descripción: (True, (0, 0, 0, 0), (14, 15), 0, 0)
+  Q-Valores: N=18.22, S=30.27, E=76.07, O=10.31
+  Mejor acción: Este
+
+Estado #95:
+  Descripción: (True, (0, 0, 0, 0), (15, 15), 0, 0)
+  Q-Valores: N=22.25, S=11.53, E=75.55, O=3.30
+  Mejor acción: Este
+
+Estado #96:
+  Descripción: (True, (0, 0, 0, 0), (12, 13), 0, 0)
+  Q-Valores: N=74.00, S=14.30, E=23.92, O=11.97
+  Mejor acción: Norte
+
+Estado #97:
+  Descripción: (True, (1, 0, 2, 4), (6, 9), 0, 0)
+  Q-Valores: N=-251.83, S=72.16, E=36.84, O=6.49
+  Mejor acción: Sur
+
+Estado #98:
+  Descripción: (True, (0, 0, 0, 1), (7, 8), 0, 0)
+  Q-Valores: N=59.22, S=69.35, E=71.36, O=67.57
+  Mejor acción: Este
+
+Estado #99:
+  Descripción: (True, (0, 0, 0, 0), (8, 7), 0, 0)
+  Q-Valores: N=68.86, S=55.90, E=71.36, O=55.90
+  Mejor acción: Este
+
+Estado #100:
+  Descripción: (True, (0, 0, 0, 4), (10, 8), 0, 0)
+  Q-Valores: N=-244.71, S=20.70, E=71.02, O=39.38
+  Mejor acción: Este
+
