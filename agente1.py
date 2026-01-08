@@ -7,6 +7,8 @@ import pickle
 import json
 from datetime import datetime
 
+from logica_combate import SistemaCombate
+
 # 1. CONFIGURACIÓN Y REGLAS
 
 class GameConfig:
@@ -46,10 +48,14 @@ class GameConfig:
 # 2. ENTORNO DE JUEGO
 
 class MapEnvironment:
+
+    
     def __init__(self, maps_folder='mapas'):
         self.maps_folder = maps_folder
         self.map_templates = self._load_maps()
         self.maps = []
+
+        self.combate = SistemaCombate()
         
         self.current_map_idx = 0
         self.agent_pos = (1, 1)
@@ -135,15 +141,14 @@ class MapEnvironment:
         ny, nx = y + dy, x + dx
         
         current_map = self.maps[self.current_map_idx]
-        
-        # CORRECCIÓN DE LÍMITES: Usar GameConfig.MAP_SIZE
         limit = GameConfig.MAP_SIZE
+        
         if not (0 <= ny < limit and 0 <= nx < limit):
-            ny, nx = y, x # Choque con límite del mapa
+            ny, nx = y, x 
 
         cell = current_map[ny, nx]
         
-        reward = -1
+        reward = -1  # Penalización por paso para fomentar velocidad
         done = False
         info = {}
 
@@ -152,18 +157,35 @@ class MapEnvironment:
             ny, nx = y, x
             
         elif cell == GameConfig.TREASURE:
-            bonus = 10 + (agent_rod_lvl * 5) # Ejemplo de bonus
+            bonus = 10 + (agent_rod_lvl * 5)
             reward = bonus
             info['gold_gain'] = bonus
-            current_map[ny, nx] = "'" 
+            current_map[ny, nx] = GameConfig.EMPTY # Marcamos como vacío tras recogerlo
             
-        elif cell == GameConfig.ENEMY_X:
-            reward = -500 
-            # done = True # Opcional: morir
-        elif cell == GameConfig.ENEMY_E: 
-            reward = -300 
-            # PONER MODULO DE COMBATE AQUÍ
-            
+        elif cell in [GameConfig.ENEMY_X, GameConfig.ENEMY_E]:
+            # 1. Generar el pez acorde a la zona (Usa la lógica de amenazas 1-2, 3-4, 5-6)
+            pez = self.combate.generar_enemigo_por_zona(self.current_map_idx)
+    
+            # 2. Procesar el combate usando el modelo entrenado
+            res = self.combate.procesar_encuentro(pez, agent_rod_lvl)
+
+            if res['resultado'] == 'victoria':
+                # Recompensa positiva para el agente (Reward = Oro ganado * multiplicador)
+                reward = res['recompensa'] * 2
+                info['gold_gain'] = res['recompensa']
+                info['exp_gain'] = res['experiencia']
+                print(f"[{res['identificacion']}] ¡Victoria! Ganaste {res['recompensa']} de oro.")
+                # El enemigo desaparece si es derrotado
+                current_map[ny, nx] = GameConfig.EMPTY 
+            else:
+                # Penalización negativa : Multiplicamos la pérdida de oro por 5
+                # Si res['recompensa'] es -40, el reward será -200
+                reward = res['recompensa'] * 5 
+                info['gold_gain'] = res['recompensa']
+                print(f"[{res['identificacion']}] ¡Derrota! Perdiste {-res['recompensa']} de oro.")
+                # El enemigo se queda en el mapa (el agente rebota a su posición anterior)
+                ny, nx = y, x 
+                
         elif cell == GameConfig.SHOP:
             cost = agent_rod_lvl * 50
             if agent_gold >= cost:
@@ -176,7 +198,7 @@ class MapEnvironment:
         elif cell in [GameConfig.EXIT_R, GameConfig.EXIT_G]:
             req = GameConfig.get_gold_requirement(self.current_map_idx)
             if agent_gold >= req:
-                reward = 200
+                reward = 1000 # Gran premio por completar nivel
                 done = True
                 info['level_complete'] = True
             else:
@@ -187,6 +209,7 @@ class MapEnvironment:
         
         if self.steps >= self.max_steps:
             done = True
+            info['timeout'] = True
             
         return self.get_vision(), reward, done, info
 
