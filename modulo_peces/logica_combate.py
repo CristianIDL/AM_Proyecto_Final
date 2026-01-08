@@ -1,9 +1,14 @@
 import joblib
+import os
 import pandas as pd
 import numpy as np
 
 class SistemaCombate:
     def __init__(self, model_path="modelo_rf.joblib", dataset_path="dataset_peces_enemigos.csv"):
+        base_path = os.path.dirname(__file__)
+
+        model_path = os.path.join(base_path, "modelo_rf.joblib")
+        dataset_path = os.path.join(base_path, "dataset_peces_enemigos.csv")
         # Cargar el modelo entrenado
         self.modelo = joblib.load(model_path)
         # Cargar el dataset original para poder "spawnear" peces reales

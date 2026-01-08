@@ -7,7 +7,7 @@ import pickle
 import json
 from datetime import datetime
 
-from logica_combate import SistemaCombate
+from modulo_peces.logica_combate import SistemaCombate
 
 # 1. CONFIGURACIÓN Y REGLAS
 
